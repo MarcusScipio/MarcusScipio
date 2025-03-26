@@ -1,176 +1,75 @@
-<div align="center">
-  
-### Cloud Solutions Architect | FinOps Specialist | SRE/DevOps
-*8+ years of experience
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![X](https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/yourhandle)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-
-</div>
+# `~/profile.tf`
 
 ```hcl
-# Profile definition file for Cloud Solutions Architect
-# Last applied: 2025-03-26
+# Cloud Solutions Architect | FinOps Specialist | Infrastructure Expert
 
-terraform {
-  required_version = ">= 1.5.0"
-}
-
-# =================================================================
-# IDENTITY
-# =================================================================
-
-resource "professional_profile" "architect" {
-  name          = "Your Name"
-  specialization = "Cloud Solutions Architecture & FinOps"
-  experience_years = 8
-  current_role  = "Solutions Architect"
+resource "profile" "about_me" {
+  name    = "Your Name"
+  role    = "Cloud Solutions Architect & FinOps Specialist"
+  focus   = "Turning cloud chaos into elegant, cost-effective infrastructure"
+  based   = "Location (Optional)"
   
-  Expertise = [
-    "Cloud Infrastructure Design",
-    "Cost Optimization",
-    "Large Scale Automation",
-    "DevOps Implementation",
-    "Pre-Sales Solutions"
+  expertise = [
+    "GCP & AWS architecture at enterprise scale",
+    "Infrastructure cost optimization & FinOps implementation",
+    "Spacelift platform specialist",
+    "Terraform/OpenTofu infrastructure design"
   ]
 }
 
-# =================================================================
-# TECH STACK
-# =================================================================
+# What I do best
 
-# CLOUD PLATFORMS & INFRASTRUCTURE
-resource "expertise" "cloud_platforms" {
-  gcp = {
-    level = "Expert"
-    focus = ["Architecture", "Cost Optimization", "Infrastructure Design"]
+resource "services" "offerings" {
+  architecture = "Design cloud solutions that balance performance, cost, and security"
+  optimization = "Reduce cloud spend by 20-40% while improving performance"
+  automation   = "Build CI/CD pipelines that make infrastructure changes safe and predictable"
+  consulting   = "Provide expert guidance on cloud infrastructure decisions"
+}
+
+# Tools I use daily
+
+resource "toolchain" "favorites" {
+  cloud        = ["GCP", "AWS"]
+  iac          = ["Terraform", "OpenTofu", "Ansible"]
+  containers   = ["Docker", "Kubernetes"]
+  ci_cd        = ["GitLab CI", "GitHub Actions", "Jenkins"]
+  observability = ["Grafana", "Prometheus"]
+  coding       = ["Python", "Bash"]
+  databases    = ["Redis", "InfluxDB", "SQL"]
+}
+
+# Recent work
+
+resource "projects" "highlights" {
+  project {
+    title   = "Enterprise Cost Optimization"
+    impact  = "Reduced cloud spend by 35% for a Fortune 500 company"
+    details = "Implemented FinOps practices, right-sized resources, and optimized reserved instance strategy"
   }
   
-  aws = {
-    level = "Advanced"
-    focus = ["Solutions Architecture", "Cloud-Native Services"]
+  project {
+    title   = "Multi-Region Infrastructure"
+    impact  = "Designed resilient architecture spanning 3 regions with 99.99% uptime"
+    details = "Created modular Terraform deployment with automated failover and disaster recovery"
+  }
+  
+  project {
+    title   = "DevOps Transformation"
+    impact  = "Accelerated deployment frequency from monthly to daily releases"
+    details = "Implemented GitLab CI pipelines with infrastructure validation gates"
   }
 }
 
-resource "expertise" "infrastructure_tools" {
-  spacelift = "Specialist"  # Platform Expertise
-  
-  infrastructure_as_code = [
-    "Terraform",    # Advanced module design, state management
-    "OpenTofu",     # Migration strategies, custom providers
-    "Ansible"       # Configuration management, role development
-  ]
-  
-  containers = [
-    "Docker",       # Image optimization, multi-stage builds
-    "Kubernetes"    # Cluster management, resource optimization, RBAC
-  ]
-  
-  ci_cd = [
-    "GitLab CI",    # Pipeline optimization, multi-stage deployments
-    "GitHub Actions", # Workflow automation, matrix builds
-    "Jenkins"       # Pipeline as code, job management
-  ]
-  
-  observability = [
-    "Grafana",      # Dashboard design, alert management
-    "Prometheus"    # Query optimization, alert rules
-  ]
+# Get in touch
+
+resource "contact" "professional" {
+  for_inquiries = "Consulting engagements, architecture reviews, cost optimization"
+  email       = "your.email@example.com"
+  linkedin    = "linkedin.com/in/yourprofile"
+  twitter     = "twitter.com/yourhandle"
 }
-
-# DEVELOPMENT & SYSTEMS
-resource "expertise" "development" {
-  languages = {
-    primary = ["Python", "Bash"]
-    secondary = ["PowerShell", "Groovy"]
-  }
-  
-  databases = ["Redis", "InfluxDB", "SQL"]
-  
-  systems_administration = {
-    linux = "Expert"    # Performance tuning, security, automation
-    windows = "Advanced" # Server management, PowerShell automation
-  }
-  
-  other = [
-    "Git",           # Workflow design, branch management
-    "Cloudflare"     # DNS, CDN, WAF policies
-  ]
-}
-
-# =================================================================
-# PROFESSIONAL FOCUS
-# =================================================================
-
-resource "professional_focus" "current" {
-  finops = {
-    description = "Cloud Cost Optimization Specialist"
-    techniques = [
-      "Resource right-sizing",
-      "Reserved & Spot Instance strategies",
-      "FinOps implementation frameworks",
-      "Cost visibility & allocation"
-    ]
-  }
-  
-  architecture = {
-    description = "Solution Design Expert"
-    specialties = [
-      "Microservices architecture",
-      "Multi-region deployments",
-      "Disaster recovery planning",
-      "Security by design"
-    ]
-  }
-  
-  pre_sales = {
-    description = "Technical Pre-Sales Consultant"
-    strengths = [
-      "Solution design & scoping",
-      "Technical demonstrations",
-      "Client requirement analysis",
-      "Cost-benefit optimization"
-    ]
-  }
-}
-
-# =================================================================
-# PORTFOLIO & PROJECTS
-# =================================================================
-
-
-# =================================================================
-# CURRENT INTERESTS & LEARNING
-# =================================================================
-
-locals {
-  interests = [
-    "Cloud Cost Optimization Strategies",
-    "Infrastructure Automation at Scale",
-    "Platform Engineering",
-    "DevSecOps Practices",
-    "Technical Pre-Sales Architecture"
-  ]
-  
-  learning = [
-    "Advanced FinOps Principles",
-    "AI Integration in Infrastructure",
-    "Multi-Cloud Governance"
-  ]
-  
-  collaboration = [
-    "Open Source Infrastructure Tools",
-    "Cloud Architecture Consulting",
-    "Technical Content Creation"
-  ]
-}
-
-# =================================================================
-# END OF PROFILE
-# =================================================================
 ```
 
-<div align="center">
+> "I build cloud infrastructure that works like it should: efficiently, reliably, and without surprise bills at the end of the month."
 
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&hide_border=true)
