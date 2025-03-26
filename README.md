@@ -69,7 +69,3 @@ resource "contact" "professional" {
   twitter     = "twitter.com/yourhandle"
 }
 ```
-
-> "I build cloud infrastructure that works like it should: efficiently, reliably, and without surprise bills at the end of the month."
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&hide_border=true)
