@@ -1,5 +1,3 @@
-# infrastructure-profile.tf
-
 <div align="center">
   
 ### Cloud Solutions Architect | FinOps Specialist | SRE/DevOps
@@ -20,25 +18,26 @@ terraform {
 }
 
 # =================================================================
-# CORE PROFESSIONAL IDENTITY
+# IDENTITY
 # =================================================================
 
 resource "professional_profile" "architect" {
   name          = "Your Name"
   specialization = "Cloud Solutions Architecture & FinOps"
   experience_years = 8
-  current_role  = "Solutions Architect (Contract)"
+  current_role  = "Solutions Architect"
   
-  strengths = [
+  Expertise = [
     "Cloud Infrastructure Design",
     "Cost Optimization",
+    "Large Scale Automation",
     "DevOps Implementation",
     "Pre-Sales Solutions"
   ]
 }
 
 # =================================================================
-# TECHNICAL EXPERTISE
+# TECH STACK
 # =================================================================
 
 # CLOUD PLATFORMS & INFRASTRUCTURE
@@ -140,29 +139,6 @@ resource "professional_focus" "current" {
 # PORTFOLIO & PROJECTS
 # =================================================================
 
-resource "github_projects" "featured" {
-  # Replace with your actual projects
-  project "cost_optimization" {
-    name        = "Cloud Cost Optimization Framework"
-    description = "Automated cost optimization for multi-cloud environments"
-    tech_stack  = ["Terraform", "Python", "GCP", "AWS"]
-    link        = "https://github.com/yourusername/cost-optimization"
-  }
-  
-  project "infrastructure_pipeline" {
-    name        = "Infrastructure Pipeline"
-    description = "CI/CD pipeline for infrastructure deployment with validation gates"
-    tech_stack  = ["GitLab CI", "Terraform", "OpenTofu", "Docker"]
-    link        = "https://github.com/yourusername/infra-pipeline"
-  }
-  
-  project "observability" {
-    name        = "Observability Stack"
-    description = "Comprehensive monitoring solution for cloud workloads"
-    tech_stack  = ["Prometheus", "Grafana", "InfluxDB", "Python"]
-    link        = "https://github.com/yourusername/observability-stack"
-  }
-}
 
 # =================================================================
 # CURRENT INTERESTS & LEARNING
