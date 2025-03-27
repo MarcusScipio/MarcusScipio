@@ -4,7 +4,7 @@
 # Cloud Solutions Architect | FinOps Specialist | Infrastructure Expert
 
 resource "profile" "about_me" {
-  name    = "Your Name"
+  name    = "Marin Govedarski"
   role    = "Cloud Solutions Architect & FinOps Specialist"
   focus   = "Turning cloud chaos into elegant, cost-effective infrastructure"
   based   = "Location (Optional)"
@@ -12,8 +12,8 @@ resource "profile" "about_me" {
   expertise = [
     "GCP & AWS architecture at enterprise scale",
     "Infrastructure cost optimization & FinOps implementation",
-    "Spacelift platform specialist",
-    "Terraform/OpenTofu infrastructure design"
+    "Spacelift platform Expertise",
+    "IaC Expertise"
   ]
 }
 
@@ -31,7 +31,7 @@ resource "services" "offerings" {
 resource "toolchain" "favorites" {
   cloud        = ["GCP", "AWS"]
   iac          = ["Terraform", "OpenTofu", "Ansible"]
-  containers   = ["Docker", "Kubernetes"]
+  containerisation   = ["Docker", "Kubernetes"]
   ci_cd        = ["GitLab CI", "GitHub Actions", "Jenkins"]
   observability = ["Grafana", "Prometheus"]
   coding       = ["Python", "Bash"]
