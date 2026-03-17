@@ -3,26 +3,35 @@
 ```hcl
 resource "profile" "marin_govedarski" {
   name     = "Marin Govedarski"
-  role     = "AI-Native Solutions Architect"
-  mission  = "Orchestrating agentic fleets on battle-tested infrastructure"
+  role     = "AI-Native Solutions Architect & Technical Advisor"
+  mission  = "Helping companies scale — without the chaos"
 
   identity = [
-    "Presales Solutions Architect",
+    "Fractional CTO & Technical Advisor",
+    "AI-Native Solutions Architect",
     "Cloud & Platform Engineer",
-    "FinOps Specialist",
   ]
 }
 ```
 
 **Infrastructure-hardened. AI-augmented. Customer-facing.**
 
-![AWS](https://img.shields.io/badge/AWS-%23232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-%234285F4?style=flat&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-%237B42BC?style=flat&logo=terraform&logoColor=white)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-%233D2C6E?style=flat&logo=opentofu&logoColor=white)
+![Spacelift](https://img.shields.io/badge/Spacelift-%231A1A2E?style=flat&logo=spacelift&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-%23191919?style=flat&logo=anthropic&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-%23F38020?style=flat&logo=cloudflare&logoColor=white)
+![Vault](https://img.shields.io/badge/Vault-%23FFEC6E?style=flat&logo=vault&logoColor=black)
+![Consul](https://img.shields.io/badge/Consul-%23F24C53?style=flat&logo=consul&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat&logo=graphql&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-%23191919?style=flat&logo=anthropic&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-%231C3C3C?style=flat&logo=langchain&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-%23FF4F00?style=flat)
+![n8n](https://img.shields.io/badge/n8n-%23EA4B71?style=flat&logo=n8n&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
@@ -55,30 +64,34 @@ The bedrock that everything runs on.
 
 | Domain | Stack |
 |---|---|
-| **Cloud** | AWS, GCP |
-| **IaC** | Terraform, OpenTofu, Ansible |
+| **Cloud** | GCP, AWS |
+| **IaC** | Terraform, OpenTofu, Spacelift, Ansible |
+| **Networking & Security** | Cloudflare, HashiCorp Vault, HashiCorp Consul |
 | **Containers** | Kubernetes, Docker |
 | **CI/CD** | GitHub Actions, GitLab CI, Jenkins |
+| **AI / Agents** | CrewAI, LangGraph, n8n, MCP |
 | **Observability** | Grafana, Prometheus |
-| **Languages** | Python, Bash |
+| **Languages** | Python, Bash, GraphQL |
 | **Data** | Redis, InfluxDB, SQL |
 | **FinOps** | Cost optimization, reserved instance strategy, resource right-sizing |
 
 ---
 
-## Highlights
+## The Short Version
 
-**Enterprise Cost Optimization**
-Reduced cloud spend by 35% for a Fortune 500 company. Implemented FinOps practices, right-sized resources, and optimized reserved instance strategy.
+I architect technology strategy and solutions for companies that need to scale — without the chaos.
 
-**Multi-Region Infrastructure**
-Designed resilient architecture spanning 3 regions with 99.99% uptime. Created modular Terraform deployments with automated failover and disaster recovery.
+My background is deep technical: SRE, Cloud Architecture, Platform Engineering. I've designed and operated systems handling 8-figure workloads. Infrastructure that runs itself. Teams that ship without firefighting.
 
-**DevOps Transformation**
-Accelerated deployment frequency from monthly to daily releases. Implemented GitLab CI pipelines with infrastructure validation gates.
+Then I moved closer to business — enterprise sales, complex stakeholders, $300K+ deals with technical buyers who smell BS instantly.
 
-**Agentic Infrastructure POC**
-Designed a proof-of-concept for autonomous infrastructure agents — AI-driven systems that detect drift, propose remediations, and execute approved changes through MCP-integrated toolchains.
+That combination — **technical depth + commercial clarity** — is rare. I use it to advise founders and executives on what to build, how to scale, and where not to waste money.
+
+**What I do now:**
+
+- **Architecture & strategy** — cloud, infrastructure, AI-driven operations
+- **Advisory for founders & CTOs** — the thinking partner you don't have in-house
+- **Systems that scale** — designed once, run forever, monitored in minutes
 
 ---
 
