@@ -2,7 +2,7 @@
 
 ### T-Shaped Solutions Architect | AI-Native | Fractional SA
 
-I go wide across infrastructure, cloud, AI, and business strategy — and deep where it matters. Engineer who sells. Salesman who builds. The person in the room who speaks both languages fluently.
+I go wide across infrastructure, cloud, AI, and business strategy, and deep where it matters. Engineer who sells. Salesman who builds. The person in the room who speaks both languages fluently.
 
 ![GCP](https://img.shields.io/badge/GCP-%234285F4?style=flat&logo=googlecloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23232F3E?style=flat&logo=amazonwebservices&logoColor=white)
@@ -26,32 +26,32 @@ I go wide across infrastructure, cloud, AI, and business strategy — and deep w
 
 ## The Short Version
 
-I architect technology strategy and solutions for companies that need to scale — without the chaos.
+I architect technology strategy and solutions for companies that need to scale, without the chaos.
 
 My background is deep technical: SRE, Cloud Architecture, Platform Engineering. I've designed and operated systems handling 8-figure workloads. Infrastructure that runs itself. Teams that ship without firefighting.
 
-Then I moved closer to business — enterprise sales, complex stakeholders, $300K+ deals with technical buyers who smell BS instantly.
+Then I moved closer to business. Enterprise sales, complex stakeholders, $300K+ deals with technical buyers who smell BS instantly.
 
-That combination — **technical depth + commercial clarity** — is rare. I use it to advise founders and executives on what to build, how to scale, and where not to waste money.
+That combination, **technical depth + commercial clarity**, is rare. I use it to advise founders and executives on what to build, how to scale, and where not to waste money.
 
 ---
 
 ## What I Do
 
-- **Architecture & strategy** — cloud, infrastructure, AI-driven operations
-- **Fractional Solutions Architect** — the thinking partner you don't have in-house
-- **Systems that scale** — designed once, run forever, monitored in minutes
+- **Architecture & strategy:** cloud, infrastructure, AI-driven operations
+- **Fractional Solutions Architect:** the thinking partner you don't have in-house
+- **Systems that scale:** designed once, run forever, monitored in minutes
 
 ---
 
 ## What I'm Building Now
 
-The intersection of **infrastructure engineering** and **AI orchestration** — designing systems where autonomous agents operate at scale on reliable, cost-efficient platforms.
+The intersection of **infrastructure engineering** and **AI orchestration**. Designing systems where autonomous agents operate at scale on reliable, cost-efficient platforms.
 
-- **Agentic fleet orchestration** — multi-agent systems that coordinate, self-heal, and scale
-- **MCP-native toolchains** — Model Context Protocol integrations that give AI agents real infrastructure access
-- **AI-augmented solutions architecture** — LLMs accelerating architecture reviews, cost modeling, and technical presales
-- **LLM-powered infrastructure intelligence** — observability and operations enhanced by language models
+- **Agentic fleet orchestration:** multi-agent systems that coordinate, self-heal, and scale
+- **MCP-native toolchains:** Model Context Protocol integrations that give AI agents real infrastructure access
+- **AI-augmented solutions architecture:** LLMs accelerating architecture reviews, cost modeling, and technical presales
+- **LLM-powered infrastructure intelligence:** observability and operations enhanced by language models
 
 ---
 
